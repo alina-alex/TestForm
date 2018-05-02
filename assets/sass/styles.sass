@@ -1,0 +1,119 @@
+
+body
+  margin: 0
+.wrapper-body
+  height: 100vh
+  width: 100%
+  background: #F5F5F5
+  display: flex
+  align-items: center
+  justify-content: center
+  .modal-dialog
+    width: 25%
+    .modal-content
+      .modal-header
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-bottom: 30px
+        .wrapper-img
+          width: 125px
+          height: 125px
+          border-radius: 50%
+          background: #696969
+        .wrapper-text
+          margin-left: 20px
+          .modal-title
+            color: #191970
+            font-size: 30px
+            margin: 0
+            text-transform: lowercase
+          .text01
+            color: #191970
+            font-size: 24px
+            margin: 0
+            text-transform: lowercase
+
+      .modal-body
+        background: #fff
+        border-radius: 5px
+        padding: 25px
+        transition: .3s
+        &:hover
+          -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2)
+          -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2)
+          box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2)
+          transition: .3s
+        form
+          .form-group
+            margin-bottom: 25px
+            label
+              width: 100%
+              color: #696969
+              font-size: 16px
+              margin-bottom: 10px
+              display: block
+            input
+              width: 93%
+              height: 40px
+              padding: 5px 0 5px 25px
+              border: 1px solid #DCDCDC
+              transition: .3s
+              &:focus
+                outline: none
+                border: 1px solid #FF1493
+                transition: .3s
+          .wrapper-button
+            display: flex
+            align-items: center
+            justify-content: space-between
+            .btn-primary
+              background: #FF1493
+              color: #ffffff
+              border-radius: 20px
+              text-transform: uppercase
+              padding: 10px 25px
+              font-size: 16px
+              border: none
+              transition: .3s
+              &:hover
+                background: #C71585
+                transition: .3s
+                cursor: pointer
+            .btn-default
+              color: #696969
+              text-decoration: underline
+              &:hover
+                color: #C71585
+                transition: .3s
+                cursor: pointer
+      #message
+        display: none
+        background: #f1f1f1
+        color: #000
+        position: relative
+        padding: 20px
+        margin-top: 10px
+        p
+          padding: 10px 35px
+          font-size: 18px
+        .valid
+          color: green
+        .invalid
+          color: red
+
+@media screen and (max-width: 1199px)
+  .wrapper-body .modal-dialog
+    width: 35%
+@media screen and (max-width: 1024px)
+  .wrapper-body .modal-dialog
+    width: 40%
+@media screen and (max-width: 991px)
+  .wrapper-body .modal-dialog
+    width: 45%
+@media screen and (max-width: 768px)
+  .wrapper-body .modal-dialog
+    width: 60%
+@media screen and (max-width: 545px)
+  .wrapper-body .modal-dialog
+    width: 90%

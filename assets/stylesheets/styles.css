@@ -1,0 +1,177 @@
+/* line 2, ../sass/styles.sass */
+body {
+  margin: 0;
+}
+
+/* line 4, ../sass/styles.sass */
+.wrapper-body {
+  height: 100vh;
+  width: 100%;
+  background: #F5F5F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 11, ../sass/styles.sass */
+.wrapper-body .modal-dialog {
+  width: 25%;
+}
+/* line 14, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+/* line 19, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-header .wrapper-img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background: #696969;
+}
+/* line 24, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-header .wrapper-text {
+  margin-left: 20px;
+}
+/* line 26, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-header .wrapper-text .modal-title {
+  color: #191970;
+  font-size: 30px;
+  margin: 0;
+  text-transform: lowercase;
+}
+/* line 31, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-header .wrapper-text .text01 {
+  color: #191970;
+  font-size: 24px;
+  margin: 0;
+  text-transform: lowercase;
+}
+/* line 37, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-body {
+  background: #fff;
+  border-radius: 5px;
+  padding: 25px;
+  transition: 0.3s;
+}
+/* line 42, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-body:hover {
+  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+/* line 48, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-body form .form-group {
+  margin-bottom: 25px;
+}
+/* line 50, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-body form .form-group label {
+  width: 100%;
+  color: #696969;
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+/* line 56, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-body form .form-group input {
+  width: 93%;
+  height: 40px;
+  padding: 5px 0 5px 25px;
+  border: 1px solid #DCDCDC;
+  transition: 0.3s;
+}
+/* line 62, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-body form .form-group input:focus {
+  outline: none;
+  border: 1px solid #FF1493;
+  transition: 0.3s;
+}
+/* line 66, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-body form .wrapper-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* line 70, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-body form .wrapper-button .btn-primary {
+  background: #FF1493;
+  color: #ffffff;
+  border-radius: 20px;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  transition: 0.3s;
+}
+/* line 79, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-body form .wrapper-button .btn-primary:hover {
+  background: #C71585;
+  transition: 0.3s;
+  cursor: pointer;
+}
+/* line 83, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-body form .wrapper-button .btn-default {
+  color: #696969;
+  text-decoration: underline;
+}
+/* line 86, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content .modal-body form .wrapper-button .btn-default:hover {
+  color: #C71585;
+  transition: 0.3s;
+  cursor: pointer;
+}
+/* line 90, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content #message {
+  display: none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+/* line 97, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content #message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+/* line 100, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content #message .valid {
+  color: green;
+}
+/* line 102, ../sass/styles.sass */
+.wrapper-body .modal-dialog .modal-content #message .invalid {
+  color: red;
+}
+
+@media screen and (max-width: 1199px) {
+  /* line 106, ../sass/styles.sass */
+  .wrapper-body .modal-dialog {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 109, ../sass/styles.sass */
+  .wrapper-body .modal-dialog {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 991px) {
+  /* line 112, ../sass/styles.sass */
+  .wrapper-body .modal-dialog {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 115, ../sass/styles.sass */
+  .wrapper-body .modal-dialog {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 545px) {
+  /* line 118, ../sass/styles.sass */
+  .wrapper-body .modal-dialog {
+    width: 90%;
+  }
+}
